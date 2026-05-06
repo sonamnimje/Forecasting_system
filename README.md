@@ -13,14 +13,23 @@ This project is a production-ready forecasting pipeline that predicts future sal
 The system:
 
 ✅ Uses a **real provided dataset** (`Sales_data.csv`)
+
 ✅ Cleans and preprocesses raw data
+
 ✅ Aggregates category-wise sales into state-level sales
+
 ✅ Handles missing values and invalid records
+
 ✅ Performs feature engineering
+
 ✅ Trains multiple forecasting models
+
 ✅ Compares model performance
+
 ✅ Automatically selects the best model
+
 ✅ Generates future forecasts
+
 ✅ Deploys predictions via FastAPI REST API
 
 ---
