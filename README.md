@@ -132,7 +132,7 @@ The system aggregates category-level sales into total state-level sales.
 Clone repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/sonamnimje/Forecasting_system.git
 cd forecasting_system
 ```
 
