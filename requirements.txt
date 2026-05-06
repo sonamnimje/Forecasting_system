@@ -1,0 +1,30 @@
+# ── Core ───────────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# ── ARIMA / SARIMA ─────────────────────────────────────────────────────────
+statsmodels>=0.14.0
+pmdarima>=2.0.4              # auto_arima (optional but recommended)
+
+# ── Prophet ────────────────────────────────────────────────────────────────
+prophet>=1.1.5
+# Note: `pystan` removed due to dependency resolution conflicts with httpstan.
+# Prophet will use cmdstanpy or its compatible backend instead.
+
+# ── XGBoost ────────────────────────────────────────────────────────────────
+xgboost>=2.0.0
+
+# ── Deep Learning (LSTM) ───────────────────────────────────────────────────
+tensorflow>=2.13.0           # or tensorflow-cpu for CPU-only
+# tensorflow-macos            # uncomment on Apple Silicon
+
+# ── API ────────────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.0.0
+
+# ── Utilities ──────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+holidays>=0.46               # US holiday calendar
